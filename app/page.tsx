@@ -14,6 +14,15 @@ export default function Home() {
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             <span className="block">Hi, I'm Agustina Luzza</span>
             <span className="text-purple-300">Front-End Developer</span>
+            <p className="text-2xl font-medium">
+              I'm a frontend developer with experience building
+              web interfaces using React, Next.js, TypeScript, JavaScript,
+              Tailwind CSS, Firebase, and tools like Git and Figma. I also have
+              knowledge in UX/UI design, which allows me to develop functional
+              interfaces focused on user experience. I'm open to new job
+              opportunities in the frontend field, where I can continue growing
+              professionally and contribute value to teams and projects.
+            </p>
           </h1>
 
           <Link
@@ -59,7 +68,7 @@ export default function Home() {
               title="LevelApp Agency"
               description="A comprehensive dashboard for e-commerce store owners with analytics, inventory management, and order processing."
               technologies={["React", "Next.js", "Tailwind CSS"]}
-              imageUrl="/placeholder.svg?height=300&width=500"
+              imageUrl="/assets/level-app.png"
               demoUrl="https://example.com/demo"
               codeUrl="https://github.com/agusluzza/level-app"
             />
@@ -72,9 +81,9 @@ export default function Home() {
                 "CSS Modules",
                 "Weather API",
               ]}
-              imageUrl="/placeholder.svg?height=300&width=500"
+              imageUrl="/assets/weather-app.png"
               demoUrl="https://example.com/demo"
-              codeUrl="https://github.com/example/project"
+              codeUrl="https://github.com/agusluzza/weather-app"
             />
             <ProjectCard
               title="Im Fine :):"
@@ -130,7 +139,9 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-6 bg-gray-900 text-white text-center border-t border-gray-800">
         <div className="container mx-auto px-6">
-          <p>© {new Date().getFullYear()} Agustina Luzza. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} Agustina Luzza. All rights reserved.
+          </p>
           <div className="flex justify-center mt-4 space-x-4">
             <a
               href="https://github.com/agusluzza"
