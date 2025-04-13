@@ -85,21 +85,21 @@ export default function Home() {
             />
             <ProjectCard
               title="Cuidate"
-              description="Im Fine :) is an Argentine clothing brand that combines comfort and self-expression through minimalist, bold, and emotionally honest designs."
+              description="Cuidate is a sexual health app designed to help users track their menstrual cycle through an interactive calendar and access educational content related to wellness and self-care."
               technologies={["Figma", "Behance", "Material UI"]}
               imageUrl="/assets/cuidateApp.png"
               demoUrl="https://www.behance.net/gallery/136531401/CuidateApp"
             />
             <ProjectCard
               title="Green House"
-              description="Im Fine :) is an Argentine clothing brand that combines comfort and self-expression through minimalist, bold, and emotionally honest designs."
+              description="Green House is an app created during the pandemic to connect plant lovers with the products and information they need. It allows users to browse, buy, and learn about plant care from the comfort of their homes."
               technologies={["Figma", "Behance", "Material UI"]}
               imageUrl="/assets/green-house.png"
               demoUrl="https://www.behance.net/gallery/139154833/Greenhouse-UI-project"
             />
             <ProjectCard
               title="Master Coin"
-              description="Im Fine :) is an Argentine clothing brand that combines comfort and self-expression through minimalist, bold, and emotionally honest designs."
+              description="Master Coin is a virtual wallet app that allows users to manage cryptocurrencies, send and receive payments, and invest directly from the platform. It combines simplicity, security, and accessibility for everyday crypto use."
               technologies={["Figma", "Behance", "Material UI"]}
               imageUrl="/assets/master-coin.png"
               demoUrl="https://www.behance.net/gallery/143449223/MasterCoin-CryptoWallet"
