@@ -8,20 +8,19 @@ import ContactInfo from "@/components/contact-form";
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-900">
-      {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center bg-gray-900 text-white">
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             <span className="block">Hi, I'm Agustina Luzza</span>
             <span className="text-purple-300">Front-End Developer</span>
             <p className="text-2xl font-medium">
-              I'm a frontend developer with experience building
-              web interfaces using React, Next.js, TypeScript, JavaScript,
-              Tailwind CSS, Firebase, and tools like Git and Figma. I also have
-              knowledge in UX/UI design, which allows me to develop functional
-              interfaces focused on user experience. I'm open to new job
-              opportunities in the frontend field, where I can continue growing
-              professionally and contribute value to teams and projects.
+              I'm a frontend developer with experience building web interfaces
+              using React, Next.js, TypeScript, JavaScript, Tailwind CSS,
+              Firebase, and tools like Git and Figma. I also have knowledge in
+              UX/UI design, which allows me to develop functional interfaces
+              focused on user experience. I'm open to new job opportunities in
+              the frontend field, where I can continue growing professionally
+              and contribute value to teams and projects.
             </p>
           </h1>
 
@@ -52,12 +51,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Projects Section */}
       <section
         id="projects"
         className="py-20 bg-gray-900 text-white border-t border-gray-800"
       >
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-6 ">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
             <span className="border-b-4 border-purple-500 pb-2">
               My Projects
@@ -86,18 +84,30 @@ export default function Home() {
               codeUrl="https://github.com/agusluzza/weather-app"
             />
             <ProjectCard
-              title="Im Fine :):"
+              title="Cuidate"
               description="Im Fine :) is an Argentine clothing brand that combines comfort and self-expression through minimalist, bold, and emotionally honest designs."
-              technologies={["TypeScript", "React", "Firebase", "Material UI"]}
-              imageUrl="/placeholder.svg?height=300&width=500"
-              demoUrl="https://example.com/demo"
-              codeUrl="https://github.com/example/project"
+              technologies={["Figma", "Behance", "Material UI"]}
+              imageUrl="/assets/cuidateApp.png"
+              demoUrl="https://www.behance.net/gallery/136531401/CuidateApp"
+            />
+            <ProjectCard
+              title="Green House"
+              description="Im Fine :) is an Argentine clothing brand that combines comfort and self-expression through minimalist, bold, and emotionally honest designs."
+              technologies={["Figma", "Behance", "Material UI"]}
+              imageUrl="/assets/green-house.png"
+              demoUrl="https://www.behance.net/gallery/139154833/Greenhouse-UI-project"
+            />
+            <ProjectCard
+              title="Master Coin"
+              description="Im Fine :) is an Argentine clothing brand that combines comfort and self-expression through minimalist, bold, and emotionally honest designs."
+              technologies={["Figma", "Behance", "Material UI"]}
+              imageUrl="/assets/master-coin.png"
+              demoUrl="https://www.behance.net/gallery/143449223/MasterCoin-CryptoWallet"
             />
           </div>
         </div>
       </section>
 
-      {/* Skills Section */}
       <section id="skills" className="py-20 bg-gray-900 text-white">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
@@ -107,7 +117,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Experience Section */}
       <section
         id="experience"
         className="py-20 bg-gray-900 text-white border-t border-gray-800"
@@ -122,7 +131,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact Section */}
       <section id="contact" className="py-20 bg-gray-900 text-white">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
@@ -136,26 +144,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="py-6 bg-gray-900 text-white text-center border-t border-gray-800">
         <div className="container mx-auto px-6">
           <p>
             © {new Date().getFullYear()} Agustina Luzza. All rights reserved.
           </p>
-          <div className="flex justify-center mt-4 space-x-4">
-            <a
-              href="https://github.com/agusluzza"
-              className="hover:text-purple-400 transition-colors"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://www.linkedin.com/in/agustina-luzza/"
-              className="hover:text-purple-400 transition-colors"
-            >
-              LinkedIn
-            </a>
-          </div>
         </div>
       </footer>
     </main>

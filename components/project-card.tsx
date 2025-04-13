@@ -17,7 +17,7 @@ interface ProjectCardProps {
   technologies: string[];
   imageUrl: string;
   demoUrl: string;
-  codeUrl: string;
+  codeUrl?: string;
 }
 
 export default function ProjectCard({
@@ -58,16 +58,18 @@ export default function ProjectCard({
         </div>
       </CardContent>
       <CardFooter className="flex justify-end items-center gap-4">
-        <a
-          href={codeUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2"
-        >
-          <Button variant="secondary" size="sm">
-            <Github size={16} /> Code
-          </Button>
-        </a>
+        {codeUrl && (
+          <a
+            href={codeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2"
+          >
+            <Button variant="secondary" size="sm">
+              <Github size={16} /> Code
+            </Button>
+          </a>
+        )}
         <a
           href={demoUrl}
           target="_blank"
